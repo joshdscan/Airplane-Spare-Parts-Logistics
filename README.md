@@ -1,1 +1,3 @@
 # Airplane-Spare-Parts-Logistics
+
+This project aims to optimize the logistics of spare parts distribution by minimizing total costs, including fixed costs for depots and transportation costs between suppliers, depots and customers. Using Gurobi for mathematical modeling and Python for data handling, the model incorporates various constraints such as supplier weight limits, depot capacity, demand fulfillment, service level requirements and inventory balance. Data is loaded and prepared using Pandas, with decision variables defined to represent depot usage and shipments. The objective function is constructed to achieve cost efficiencygiven respect to the optimal depot configuration and transportation strategy.
